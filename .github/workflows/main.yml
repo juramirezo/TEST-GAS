@@ -39,7 +39,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: Run FCS IaC Scan
-        uses: crowdstrike/fcs-action@v4.0.1
+        uses: crowdstrike/fcs-action@v2.0.0
         with:
           falcon_client_id: ${{ vars.FALCON_CLIENT_ID }}
           falcon_region: 'us-1'
